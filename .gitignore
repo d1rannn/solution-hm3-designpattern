@@ -1,0 +1,48 @@
+# Ignore compiled Java class files
+*.class
+*.jar
+*.war
+*.ear
+
+# VS Code settings and workspace files
+.vscode/
+.settings/
+.project
+.classpath
+
+# Ignore build and target directories
+bin/
+target/
+out/
+
+# Ignore dependency directories
+lib/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+hs_err_pid*
+*.swp
+
+# Ignore Maven and Gradle build artifacts
+.mvn/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+build/
+.gradle/
+.gradle-cache/
+
+# Ignore JetBrains IDE (IntelliJ IDEA, WebStorm, etc.)
+.idea/
+*.ipr
+*.iws
+
+# Ignore environment-specific files
+.env
+*.properties
